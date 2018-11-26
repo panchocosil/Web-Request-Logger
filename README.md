@@ -21,7 +21,7 @@ The User Agent was: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko
 
 All Headers:
 ```
-POST /telegram-log-http-request.php HTTP/1.1
+POST /index.php HTTP/1.1
 HOST: logserver.com
 Connection: Keep-Alive 
 Proxy-Connection: Keep-Alive  
