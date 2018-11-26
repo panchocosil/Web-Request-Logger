@@ -5,6 +5,7 @@ This simple PHP request logger will send you a telegram with all the requested i
 Install:
 1. Add your telegram keys from https://my.telegram.org/apps to index.php
 2. Upload index.php to any PHP server.
+3. To test open the browser and call your index.php. This will be send you the request via Telegram using Markdown
 
 
 
