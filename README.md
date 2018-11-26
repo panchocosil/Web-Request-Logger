@@ -10,7 +10,7 @@ Install:
 
 
 
-## Now all HTTP request will be send to your telegram account with this format:
+## All HTTP request will be send to your telegram account in this format:
 
 New Request to Request Log
 ```
