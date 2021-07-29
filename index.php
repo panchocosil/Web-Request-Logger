@@ -1,5 +1,6 @@
 <?php
 
+
 //All info
 $remoteIp = $_SERVER['REMOTE_ADDR'];
 $remoteHost = $_SERVER['HTTP_HOST'];
@@ -19,6 +20,7 @@ foreach ($headers as $header => $value) {
     $ApacheHeaders .= "$header: $value \n";
 }
 
+// Replace apache_request_headers
 if( !function_exists('apache_request_headers') ) {
     function apache_request_headers() {
         $arh = array();
@@ -54,9 +56,9 @@ $filelocation = "dumprequest" . $date->format('Y-m-d%20H:i:sP') . ".txt";
 
 
 // Telegram Message
-$apiToken = "ADD-YOU-TELEGRAM-KEY;
+$apiToken = "562275579:AAGtNTte6-AhIKEGcd7VlF4qlLC66detrJo";
 $data = [
-    'chat_id' => 'ADD-TELEGRAM-ID',
+    'chat_id' => '29566595',
     'parse_mode' => 'Markdown',
     'text' => "*New Request to Request Log*
 The IP: `$remoteIp`
