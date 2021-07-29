@@ -1,4 +1,4 @@
-# Web-Request-Logger
+# SSRF Request Logger
 
 This simple PHP request logger will send you a telegram with all the requested information. Useful to detect Server Side Request. Support GET and POST request.
 
