@@ -1,6 +1,6 @@
 # SSRF Request Logger
 
-This simple PHP request logger will send you a telegram with all the requested information. Useful to detect Server Side Request. Support GET and POST request.
+This SSRF request logger will send you a telegram msg with all the requested information. Useful to detect Server Side Request. Support GET and POST request.
 
 Install:
 1. Add your telegram keys from https://my.telegram.org/apps to index.php
