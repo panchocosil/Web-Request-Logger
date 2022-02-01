@@ -56,7 +56,7 @@ $filelocation = "dumprequest" . $date->format('Y-m-d%20H:i:sP') . ".txt";
 
 
 // Telegram Message
-$apiToken = "562275579:AAGtNTte6-AhIKEGcd7VlF4qlLC66detrJo";
+$apiToken = "5622xxxxxxxxxxxxo";
 $data = [
     'chat_id' => '29566595',
     'parse_mode' => 'Markdown',
